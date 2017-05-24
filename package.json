@@ -1,0 +1,16 @@
+{
+  "name": "visual-reg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "jest demo/index.test.js"
+  },
+  "dependencies": {
+    "jsdom": "^11.0.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
