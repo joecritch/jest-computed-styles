@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it has the correct computed styles 1`] = `
+Array [
+  Object {
+    "computedStyle": Object {
+      "display": "block",
+      "margin": "0px",
+      "padding": "0px",
+    },
+    "node": <body>
+      <div
+            class="hello"
+      >
+            Hello world
+      </div>
+</body>,
+  },
+  Object {
+    "computedStyle": Object {
+      "background": "blue",
+      "display": "block",
+      "margin": "0px",
+      "padding": "0px",
+    },
+    "node": <div
+      class="hello"
+>
+      Hello world
+</div>,
+  },
+]
+`;
